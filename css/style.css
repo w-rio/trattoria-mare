@@ -12,11 +12,11 @@
 
 /* Header */
 .site-header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.75);
 	backdrop-filter: blur(4px);
 	z-index: 1000;
 }
@@ -51,11 +51,12 @@
 }
 
 .nav-list .button {
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.7);
 	padding: 4px 12px;
 	border-radius: 4px;
 	border: 1px solid #ccc;
 	font-weight: bold;
+	backdrop-filter: blur(2px);
 }
 
 @media screen and (max-width: 768px) {
